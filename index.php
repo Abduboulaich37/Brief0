@@ -14,5 +14,26 @@
 <body><br>
     <!-- Name of Crud -->
     <h1 class="text-center text-info">YourTasks</h1>
+    <div class="container">
+        <form action="index.php" method="post">
+            <div class="form-group">
+                <label>Name</label>
+                <input type="text" name="name" placeholder="Enter name of promotion" class="form-control">
+            </div>
+            <div class="form-group text-center">
+                <input type="submit" name="submit" value="Submit" class="btn btn-info">
+            </div>
+        </form><br>
+        <h3 class="text-center text-danger">Display Promotions</h3>
+        <table class="table table-bordered">
+            <tr class="bg-primary text center">
+                <th>ID</th>
+                <th>Name</th>
+            </tr>
+
+        </table>
+
+
+    </div>
 </body>
 </html>
